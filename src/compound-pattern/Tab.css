@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.tab {
+    border: 1px solid black;
+}
+.headsContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.tabItem {
+    background-color: red;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.tabItem.active {
+    background-color: brown;
+}
+.contentContainer {
+    background-color: gray;
+}
+.contentItem {
+
+}
